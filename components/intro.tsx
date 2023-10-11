@@ -74,19 +74,26 @@ export default function Intro() {
         delay: 0.1,
       }}
       >
-        <Link href="#contact" className='bg-gray-900 text-white px-7 py-3 
+        <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 
          flex items-center gap-2 rounded-full
          outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
          >
-            Contact me here <BsArrowRight />
+            Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/>
         </Link>
-        <a href="" className='bg-white px-7 py-3 flex items-center gap-2 rounded-full'>
-            Download CV <HiDownload />
+
+        <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full 
+        outline-none focus:scale-110 hover:scale-110
+        active:scale-105 transition cursor-pointer border border-black/10' href="/Irakliresume.pdf" download={true}>
+            Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
         </a>
-        <a className='bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full'>
+
+        <a className='bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]
+        active:scale-105 transition cursor-pointer border border-black/10 hover:text-gray-950' href='https://www.linkedin.com/in/ikamastera/' target="_blank">
             <BsLinkedin />
         </a>
-        <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]'>
+
+        <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15]
+        active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10' href='https://github.com/IkaMastera' target="_blank">
             <FaGithubSquare />
         </a>
       </motion.div>
