@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import mexicanaImg from "@/public/mexicana.png";
 import reformaticImg from "@/public/reformatics.png";
+import restaurantImg from "@/public/restaurantapp.png";
+import tushetiImg from "@/public/tusheti.png";
 
 export const links = [
   {
@@ -62,18 +64,32 @@ export const experiencesData = [
 export const projectsData = [
    
   {
-    title: "Front-End Developer UpGaming",
+    title: "Mexicana Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Worked as a Front-End Developer on this project for 3 months",
+    tags: ["CSS", "HTML", "Javascript", "Laravel", "Vue.js"],
     imageUrl: mexicanaImg,
   },
   {
-    title: "Junior Back-End Developer Redberry",
+    title: "Reformatics",
     description:
-      "As an innovative Junior Back-End Developer, I've been pivotal in architecting and optimizing server-side logic for various projects, This experience has sharpened my backend skills and provided a comprehensive understanding of end-to-end development, making me a versatile developer capable of tackling complex challenges.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This was my first project where I learned and used JavaScript for the first time also helped do develop Slider which was really a good learning experience",
+    tags: ["JavaScript", "SCSS", "CSS", "HTML"],
     imageUrl: reformaticImg,
+  },
+  {
+    title: "Restaurant App",
+    description:
+      "My first Angular Application for IT-Step Academy Georgia, It has search functionality, Tags, Add To cart And delete from the cart, also it has custom made star review system",
+    tags: ["JavaScript", "Angular", "CSS", "HTML", "TypeScript"],
+    imageUrl: restaurantImg,
+  },
+  {
+    title: "Tusheti Camping Website",
+    description:
+      "A Website landing page for tusheti camping site mobile application Made use of Next.js",
+    tags: ["JavaScript", "Next.js", "CSS", "HTML", "TypeScript", "Tailwind.css"],
+    imageUrl: restaurantImg,
   },
 ] as const;
 
