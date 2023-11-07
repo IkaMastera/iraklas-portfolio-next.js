@@ -1,8 +1,16 @@
+"use client";
+
+import SectionHeading from "./section-heading";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section>
-        <h2 className="text-3xl font-bold capitalize mb-8">About me</h2>
+    <motion.section className="mb-28 max-w-[50rem] text-center leading-8 sm:mb-40"
+    initial = {{ opacity: 0, y: 100 }}
+    animate= {{ opacity: 1, y: 0 }}
+    transition= {{ delay: 0.175 }}
+    >
+        <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
             Greetings! I embarked on an exciting journey in Front-end development, transitioning from my academic background in {" "}
             <span className="font-bold">
@@ -34,6 +42,6 @@ export default function About() {
             commitment or a <span className="font-bold">part-time</span> collaboration, 
             I am eager to be a part of an inspiring team.
         </p>
-    </section>
+    </motion.section>
   )
 }
