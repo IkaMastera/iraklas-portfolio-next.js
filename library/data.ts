@@ -89,7 +89,7 @@ export const projectsData = [
     description:
       "A Website landing page for tusheti camping site mobile application Made use of Next.js",
     tags: ["JavaScript", "Next.js", "CSS", "HTML", "TypeScript", "Tailwind.css"],
-    imageUrl: restaurantImg,
+    imageUrl: tushetiImg,
   },
 ] as const;
 

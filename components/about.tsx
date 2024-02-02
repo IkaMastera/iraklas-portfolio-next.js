@@ -38,7 +38,7 @@ export default function About() {
             I am on the lookout for opportunities that allow me to
             contribute to a company's growth and, in turn,
             enhance my journey in <span className="font-bold">Front-End Development.</span>
-            Whether it's a <span className="font-bold">full-time</span>
+            Whether it's a <span className="font-bold"> full-time </span> 
             commitment or a <span className="font-bold">part-time</span> collaboration, 
             I am eager to be a part of an inspiring team.
         </p>
