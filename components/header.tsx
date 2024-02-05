@@ -1,11 +1,15 @@
 "use client";
 
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion';
 import { links } from '@/library/data';
 import Link from 'next/link';
+import clsx from 'clsx';
 
 export default function Header() {
+  const [activeSection, setActiveSection] = useState('Home');
+
+
   return (
     <header className='z-[999] relative'>
       <motion.div 
@@ -24,13 +28,33 @@ export default function Header() {
            {
              links.map(link => (
                 <motion.li 
-                 className = "h-3/4 flex items-center justify-center"
+                 className = "relative h-3/4 flex items-center justify-center"
                  key={link.hash}
                  initial = {{ y: -100, opacity: 0 }}
-                 animate = {{ y: 0, opacity: 1 }}
-                
+                 animate = {{ y: 0, opacity: 1 }}               
                 >
-                  <Link className='flex w-full px-3 py-3 hover:text-gray-950 items-center justify-center transition' href={link.hash}>{link.name}</Link>
+                  <Link className={clsx('flex w-full px-3 py-3 hover:text-gray-950 items-center justify-center transition', {
+                    "text-gray-950": activeSection === link.name
+                  })} 
+                  href={link.hash}
+                  onClick={() => setActiveSection(link.name)}
+                  >
+                  {link.name}
+
+                  {
+                    link.name === activeSection && (
+                      <motion.span className='bg-gray-100
+                       rounded-full absolute inset-0 -z-10'
+                       layoutId="activeSection"
+                       transition={{
+                        type: "spring",
+                        stiffness: 380,
+                        damping: 30,
+                       }}
+                       ></motion.span>
+                    )}
+        
+                  </Link>
                 </motion.li>
              ))
            }
