@@ -10,7 +10,7 @@ import { FaGithubSquare } from 'react-icons/fa'
 
 export default function Intro() {
   return (
-    <section className='mb-2 max-w-[50rem] text-center sm:mb-0'>
+    <section id='home' className='mb-2 max-w-[50rem] text-center sm:mb-0 scroll-mt-48'>
       <div className='flex items-center justify-center'>
         <div className='relative'>
             <motion.div
@@ -63,7 +63,7 @@ export default function Intro() {
          {" "}
          <span className='italic'>I enjoy Building Websites and software Using</span>
          {" "}
-         <span className='font-bold underline'>Angular, React(Next.js)</span>
+         <span className='font-bold underline'>Vue, React(Next.js)</span>
       </motion.h1>
 
       <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4
