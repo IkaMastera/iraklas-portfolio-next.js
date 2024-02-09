@@ -14,13 +14,13 @@ export default function Intro() {
   const {ref, inView} = useInView({
     threshold: 0.5,
   });
-  const { setActiveSection } = useActiveSectionContext();
+  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
   useEffect(() => {
-    if (inView) {
+    if (inView && Date.now() - timeOfLastClick > 1000) {
        setActiveSection("Home");
     }
-  }, [inView, setActiveSection]);
+  }, [inView, setActiveSection, timeOfLastClick]);
 
   return (
     <section ref={ref} id='home' className='mb-2 max-w-[50rem] text-center sm:mb-0 scroll-mt-48'>
