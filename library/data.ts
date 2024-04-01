@@ -62,11 +62,9 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-   
   {
     title: "Mexicana Website",
-    description:
-      "Worked as a Front-End Developer on this project for 3 months",
+    description: "Worked as a Front-End Developer on this project for 3 months",
     tags: ["CSS", "HTML", "Javascript", "Laravel", "Vue.js"],
     imageUrl: mexicanaImg,
   },
@@ -88,7 +86,14 @@ export const projectsData = [
     title: "Tusheti Camping Website",
     description:
       "A Website landing page for tusheti camping site mobile application Made use of Next.js",
-    tags: ["JavaScript", "Next.js", "CSS", "HTML", "TypeScript", "Tailwind.css"],
+    tags: [
+      "JavaScript",
+      "Next.js",
+      "CSS",
+      "HTML",
+      "TypeScript",
+      "Tailwind.css",
+    ],
     imageUrl: tushetiImg,
   },
 ] as const;
@@ -112,5 +117,9 @@ export const skillsData = [
   "PostgreSQL",
   "Laravel",
   "Framer Motion",
-  "Angular"
+  "Vue.JS",
+  "Chat-GPT",
+  "Express",
+  "Python",
+  "DevOps",
 ] as const;
