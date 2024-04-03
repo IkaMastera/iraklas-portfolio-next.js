@@ -36,18 +36,34 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Ilia State University Bachelor Histroy/Biology",
+    location: "Georgia, Tbilisi",
+    description:
+      "I pursued a major in History and a minor in Biology at Ilia State University, where I delved into the complexities of our past and the intricacies of the natural world.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2014 - 2019",
+  },
+  {
+    title: "Ilia State University Masters Degree Psychology",
+    location: "Georgia, Tbilisi",
+    description:
+      "Following my undergraduate studies, I advanced to a Master’s degree in Psychology, further exploring the depths of human behavior and mental processes.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2021",
+  },
+  {
     title: "Junior Front-End Developer",
     location: "Georgia, Tbilisi",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer at a company called Redberry.",
-    icon: React.createElement(LuGraduationCap),
+      "Just six months into my studies, I swiftly transitioned into the tech field, securing a position as a front-end developer at Redberry.",
+    icon: React.createElement(CgWorkAlt),
     date: "2019-2020",
   },
   {
     title: "Junior Back-End Developer",
     location: "Georgia, Tbilisi",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "After 1.2 years in front-end development, I pivoted to back-end development at Redberry, expanding my technical expertise.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
@@ -55,23 +71,23 @@ export const experiencesData = [
     title: "Front-End Developer Lecturer",
     location: "Georgia, Tbilisi",
     description:
-      "After 2 and a half years at Redberry I decided to get my skills to the next level at new companies and started to work as a front-end lecturer in digital academy for 1 month",
-    icon: React.createElement(FaReact),
+      "After enriching my expertise with 2.5 years at Redberry, I sought new challenges and opportunities for growth, prompting my transition to a front-end lecturer position at Digital Academy.",
+    icon: React.createElement(CgWorkAlt),
     date: "2023 - 2023",
   },
   {
     title: "Front-End Developer",
     location: "Georgia, Tbilisi",
     description:
-      "After my experiences as a lecturer and a full-stack developer at redberry i got offered a job at a company called UpGaming where i got more hang of languages like javascript and typescript",
-    icon: React.createElement(FaReact),
+      "Following my roles as a full-stack developer and a lecturer, I joined UpGaming, where I further honed my skills in JavaScript and TypeScript.",
+    icon: React.createElement(CgWorkAlt),
     date: "2023 - 2023",
   },
   {
     title: "Front-End Developer",
     location: "Georgia, Tbilisi",
     description:
-      "Unfortunately UpGamings office was too far away from my house and that distance + the native language of javascript and making casino games wasnt my passion and i decided to shift my whole career to become a masterfull React.js developer and i started to work as a freelancer at an american company called Elgeo Corp",
+      "After some time at UpGaming, I realized the commute, focus on native JavaScript for casino games, and the overall direction didn’t align with my passions. Motivated to excel as a React.js developer, I shifted my career path and began freelancing for an American company, Elgeo Corp, marking a new chapter in my professional journey.",
     icon: React.createElement(FaReact),
     date: "2023 - 2024",
   },
@@ -79,8 +95,8 @@ export const experiencesData = [
     title: "BTU Masters Degree In Technology",
     location: "Georgia, Tbilisi",
     description:
-      "Right now I am Studying at university called BTU which is the best university for programming in Georgia I decided to study and get my skills to the next level to become the version of me that i've allways wanted",
-    icon: React.createElement(FaReact),
+      "Currently, I'm advancing my education at BTU, renowned as Georgia's premier university for programming. This step is part of my commitment to elevating my skills and becoming the best version of myself in the tech industry.",
+    icon: React.createElement(LuGraduationCap),
     date: "2023 - 2024",
   },
 ] as const;
