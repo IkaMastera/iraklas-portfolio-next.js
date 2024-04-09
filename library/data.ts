@@ -87,7 +87,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Georgia, Tbilisi",
     description:
-      "After some time at UpGaming, I realized the commute, focus on native JavaScript for casino games, and the overall direction didn’t align with my passions. Motivated to excel as a React.js developer, I shifted my career path and began freelancing for an American company, Elgeo Corp, marking a new chapter in my professional journey.",
+      "After working at UpGaming, I found the commute, emphasis on native JavaScript for casino games, and their direction didn't match my interests. Eager to specialize in React.js, I transitioned to freelancing with an American company, Elgeo Corp, opening a new chapter in my career.",
     icon: React.createElement(FaReact),
     date: "2023 - 2024",
   },
