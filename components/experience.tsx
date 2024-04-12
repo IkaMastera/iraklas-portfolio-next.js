@@ -10,7 +10,11 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/library/data";
 import { useInView } from "react-intersection-observer";
 
-const TimelineElementWrapper = ({ item }) => {
+interface TimelineElementProps {
+  item: any; // or use unknown
+}
+
+const TimelineElementWrapper: React.FC<TimelineElementProps> = ({ item }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1, // Adjust this value based on when you want the element to be considered "in view"
@@ -52,7 +56,7 @@ export default function Experience() {
     <section
       ref={ref}
       id="experience"
-      className="mb-28 max-w-[45rem] scroll-mt-28 text-center leading-8 sm:mb-40"
+      className="mb-28 max-w-[75rem] scroll-mt-28 text-center leading-8 sm:mb-40"
     >
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline lineColor="">

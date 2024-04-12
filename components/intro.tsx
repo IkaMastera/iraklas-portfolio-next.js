@@ -99,7 +99,7 @@ export default function Intro() {
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full 
         outline-none focus:scale-110 hover:scale-110
-        active:scale-105 transition cursor-pointer border border-black/10"
+        active:scale-105 transition cursor-pointer borderBlack"
           href="/Irakliresume.pdf"
           download={true}
         >
@@ -109,7 +109,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]
-        active:scale-105 transition cursor-pointer border border-black/10 hover:text-gray-950"
+        active:scale-105 transition cursor-pointer borderBlack hover:text-gray-950"
           href="https://www.linkedin.com/in/ikamastera/"
           target="_blank"
         >
@@ -118,7 +118,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15]
-        active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10"
+        active:scale-105 hover:text-gray-950 transition cursor-pointer borderBlack"
           href="https://github.com/IkaMastera"
           target="_blank"
         >
