@@ -59,7 +59,7 @@ export default function Experience() {
       className="mb-28 max-w-[75rem] scroll-mt-28 text-center leading-8 sm:mb-40"
     >
       <SectionHeading>My Experience</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor="#ffffff">
         {experiencesData.map((item, index) => (
           <TimelineElementWrapper key={index} item={item} />
         ))}
