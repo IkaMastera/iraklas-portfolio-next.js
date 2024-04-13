@@ -65,7 +65,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I am Irakli Oboladze</span>, a {"  "}
         <span className="font-bold">
-          Software Engineer with 3+ years of experience
+          Full-Stack Software Engineer with 3+ years of experience
         </span>{" "}
         <span className="italic">
           I enjoy Building Websites and software Using
