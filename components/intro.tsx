@@ -18,7 +18,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-2 max-w-[50rem] text-center sm:mb-0 scroll-mt-48"
+      className="mb-2 max-w-[50rem] text-center sm:mb-0 scroll-mt-48 text-white"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -84,9 +84,9 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 
+          className="group bg-[#659DBD] text-white px-7 py-3 
          flex items-center gap-2 rounded-full
-         outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+         outline-none focus:scale-110 hover:scale-110 hover:bg-[#2f7096] active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -97,7 +97,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full 
+          className="group bg-white text-[#8D8741] px-7 py-3 flex items-center gap-2 rounded-full 
         outline-none focus:scale-110 hover:scale-110
         active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/Irakliresume.pdf"
@@ -108,8 +108,8 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]
-        active:scale-105 transition cursor-pointer borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 flex items-center text-[#659DBD] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]
+        active:scale-105 transition cursor-pointer borderBlack hover:text-[#2f7096] dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/ikamastera/"
           target="_blank"
         >
@@ -117,8 +117,8 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15]
-        active:scale-105 hover:text-gray-950 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-[#659DBD] flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15]
+        active:scale-105 hover:text-[#2f7096] transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/IkaMastera"
           target="_blank"
         >
