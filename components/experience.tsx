@@ -64,9 +64,13 @@ export default function Experience() {
     <section
       ref={ref}
       id="experience"
-      className="mb-28 max-w-[75rem] scroll-mt-28 text-center leading-8 sm:mb-40 text-[#8D8741]"
+      className="mb-28 max-w-[75rem] scroll-mt-28 text-center leading-8 sm:mb-40 text-[#2f7096]"
     >
-      <SectionHeading>My Experience</SectionHeading>
+      <SectionHeading>
+        <>
+          <div className="text-white">My Experience</div>
+        </>
+      </SectionHeading>
       <VerticalTimeline
         lineColor={theme === "light" ? "#ffffff" : "rgba(255, 255, 255, 0.2)"}
       >
