@@ -6,6 +6,7 @@ import mexicanaImg from "@/public/mexicana.png";
 import reformaticImg from "@/public/reformatics.png";
 import restaurantImg from "@/public/restaurantapp.png";
 import tushetiImg from "@/public/tusheti.png";
+import familyWineryImg from "@/public/familywinery.png";
 
 export const links = [
   {
@@ -92,10 +93,10 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "BTU Masters Degree In Technology",
+    title: "GAU Masters Degree Computer Science",
     location: "Georgia, Tbilisi",
     description:
-      "Currently, I'm advancing my education at BTU, renowned as Georgia's premier university for programming. This step is part of my commitment to elevating my skills and becoming the best version of myself in the tech industry.",
+      "Currently, I'm advancing my education in Computer Science at GAU, a respected institution in Georgia. This step is a testament to my commitment to refining my skills and becoming the best version of myself in the tech industry.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - 2024",
   },
@@ -121,6 +122,12 @@ export const projectsData = [
       "My first Angular Application for IT-Step Academy Georgia, It has search functionality, Tags, Add To cart And delete from the cart, also it has custom made star review system",
     tags: ["JavaScript", "Angular", "CSS", "HTML", "TypeScript"],
     imageUrl: restaurantImg,
+  },
+  {
+    title: "My Own Family Winery Website",
+    description: "My own Family Winery Website",
+    tags: ["JavaScript", "CSS", "HTML"],
+    imageUrl: familyWineryImg,
   },
   {
     title: "Tusheti Camping Website",
