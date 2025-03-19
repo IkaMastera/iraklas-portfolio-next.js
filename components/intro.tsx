@@ -65,8 +65,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I am Irakli Oboladze</span>, a {"  "}
         <span className="font-bold">
-          Transitioning Automation Engineer with 3 years of experience as a
-          deveoper.
+          Transitioning QA Engineer with 3 years of experience as a deveoper.
         </span>{" "}
         <span className="italic">
           I enjoy Building Websites and software Using
