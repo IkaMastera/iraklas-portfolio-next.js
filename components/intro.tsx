@@ -65,13 +65,13 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I am Irakli Oboladze</span>, a {"  "}
         <span className="font-bold">
-          Transitioning QA Engineer with 3 years of experience as a deveoper.
+          DevOps & Automation Engineer transitioning from 3+ years in full-stack development.
         </span>{" "}
         <span className="italic">
-          I enjoy Building Websites and software Using
+          I specialize in building resilient systems and automating workflows
         </span>{" "}
         <span className="font-bold underline">
-          Java, React(Next.js), Javascript
+          using Python, Bash, Docker, Linux, Git, and CI/CD pipelines.
         </span>
       </motion.h1>
 
@@ -102,7 +102,7 @@ export default function Intro() {
           className="group bg-white text-[#8D8741] px-7 py-3 flex items-center gap-2 rounded-full 
         outline-none focus:scale-110 hover:scale-110
         active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/automationCV.pdf"
+          href="/IraklaEngineerCV.pdf"
           download={true}
         >
           Download CV{" "}
