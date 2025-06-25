@@ -58,7 +58,7 @@ export const experiencesData = [
     description:
       "Just six months into my studies, I swiftly transitioned into the tech field, securing a position as a front-end developer at Redberry.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019-2020",
+    date: "2020-2021",
   },
   {
     title: "Junior Back-End Developer",
@@ -66,7 +66,7 @@ export const experiencesData = [
     description:
       "After 1.2 years in front-end development, I pivoted to back-end development at Redberry, expanding my technical expertise.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
+    date: "2021 - 2022",
   },
   {
     title: "Front-End Developer Lecturer",
@@ -74,7 +74,7 @@ export const experiencesData = [
     description:
       "After enriching my expertise with 2.5 years at Redberry, I sought new challenges and opportunities for growth, prompting my transition to a front-end lecturer position at Digital Academy.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2023",
+    date: "2022 - 2023",
   },
   {
     title: "Front-End Developer",
@@ -82,7 +82,7 @@ export const experiencesData = [
     description:
       "Following my roles as a full-stack developer and a lecturer, I joined UpGaming, where I further honed my skills in JavaScript and TypeScript.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2023",
+    date: "2023 - 2024",
   },
   {
     title: "Front-End Developer",
@@ -155,18 +155,18 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Pixi.JS",
+  "Docker",
   "MongoDB",
-  "Redux",
+  "Kubernetes",
   "GraphQL",
-  "Nova",
+  "Python",
   "PostgreSQL",
   "Laravel",
   "Framer Motion",
   "Vue.JS",
   "Chat-GPT",
-  "Java",
-  "Spring",
+  "Linux",
+  "Bash",
   "Selenium",
   "Appium",
   "Swagger",

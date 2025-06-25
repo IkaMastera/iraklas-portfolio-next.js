@@ -19,24 +19,18 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        Hello, I’m Irakli! My tech journey began with crafting stunning
-        front-end interfaces and building robust back-end systems. But as I dug
-        deeper, I discovered that my true passion wasn’t just about coding—it
-        was about making systems smarter and more efficient.
+        Hi, I’m Irakli — a former full-stack developer turned SRE/DevOps Engineer.
+        I started by building front-end interfaces and back-end systems with JavaScript, Laravel, and MySQL.
+        But over time, I realized my passion wasn’t just writing code—it was optimizing systems.
+        I became obsessed with turning repetitive tasks into reliable, automated pipelines.   
       </p>
       <p className="mb-3">
-        This revelation led me to the dynamic world of automation engineering.
-        Leveraging my full-stack experience, I now design and implement
-        automated solutions that not only simplify complex processes but also
-        empower teams to focus on what truly matters: innovation and growth.
-      </p>
-      <p>
-        Today, I stand as a confident automation engineer who transforms
-        challenges into streamlined, efficient systems. I believe that
-        automation isn’t just a tool—it’s a mindset that can revolutionize
-        workflows and drive progress. If you’re looking for someone who bridges
-        traditional development with forward-thinking automation strategies, I’m
-        ready to make a real impact.
+        Today, I engineer solutions that boost efficiency, reduce human error,
+        and let teams focus on what matters: building and shipping faster.
+        From test automation to CI/CD workflows, I bridge the gap between
+        development and operations with smart, scalable automation.
+        I don’t just build—I streamline, stabilize, and scale. If you need someone who
+        thinks like a developer but automates like an SRE, I’m ready to deliver impact.
       </p>
     </motion.section>
   );
